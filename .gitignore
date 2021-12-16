@@ -1,3 +1,5 @@
 .idea
 .vscode
 .DS_Store
+__MACOSX
+mysql-connector-java-8.0.26
