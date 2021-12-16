@@ -74,7 +74,7 @@ class Main {
                         System.out.println();
                         System.out.print("SELECT QUERY: ");                                                  
                         String selectquery = scanner.nextLine();
-                        System.out.println(selectquery);     
+                        //System.out.println(selectquery);     
                         scanner.nextLine();                       
                         try {
                             Statement stmt2=con.createStatement();                              
@@ -99,7 +99,7 @@ class Main {
                         System.out.println();
                         System.out.print("INSERT QUERY: ");                                                  
                         String insertquery = scanner.nextLine();  
-                        System.out.println(insertquery); 
+                        //System.out.println(insertquery); 
                         scanner.nextLine();                         
                         try {
                             Statement stmt2=con.createStatement();                              
@@ -119,7 +119,7 @@ class Main {
                         System.out.println();
                         System.out.print("DELETE QUERY: ");                                                  
                         String deletequery = scanner.nextLine();                             
-                        System.out.println(deletequery); 
+                        //System.out.println(deletequery); 
                         try {
                             Statement stmt2=con.createStatement();                              
                             stmt2.executeUpdate(deletequery);                         
@@ -150,13 +150,4 @@ class Main {
             System.out.println(e);
         }
     }
-
-    static void InsertMethod() {
-        // code to be executed
-    }
-
-    static void DeleteMethod() {
-        // code to be executed
-    }
-
 }
